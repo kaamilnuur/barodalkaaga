@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.barodalkaaga">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaroDalkaaga">
+        <activity android:name=".aboutActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".bariActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".nugaalActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".waqooyiActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".hiiraanActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".gedoActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".jubadadhexeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".jubadahoosweActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".shabeeladhexeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".shabeeladahooseActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".awdalActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".togdheerActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".galgaduudActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sanaagActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".soolActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".bakoolActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".baayActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".mudugActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".anotherActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".splashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
